@@ -32,10 +32,6 @@
           "patterns": ["chess", "checkers", "minecraft", "minesweeper", "surviv.io", "terraria", "angry birds"],
           "responses": ["I'm not that good at that game", "I think you should ask someone better than me.", "I'm not the right kind of person for that"]
         },
-        {"tag": "hours",
-         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
-         "responses": ["We are open 7am-4pm Monday-Friday!"]
-        },
         {"tag": "hobby",
          "patterns": ["what do you like to do", "what is your hobby"],
          "responses": ["I like to sleep.", "I enjoy sleeping"]
