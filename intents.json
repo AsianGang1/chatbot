@@ -3,18 +3,9 @@
          "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "yoooooooooo", "yo"],
          "responses": ["Hello!", "Good to see you again!", "Hi there, how are you?"]
         },
-        {"tag": "happy_response",
-         "patterns": ["good", "alright", "well", "happy", "nice"],
-         "responses": ["Good to hear", "Happy to hear that", "Nice!"]
-        },
-        {"tag": "sad_response",
-         "patterns": ["bad", "angry", "unpleasant", "sad", "terrible"],
-         "responses": [";(", "Hope you'll feel better soon", "Man, That sucks."]
-        },
         {"tag": "goodbye",
          "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
-         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
-         "context_set": ""
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"]
         },
         {"tag": "age",
          "patterns": ["how old", "what is your age", "how old are you", "age?"],
@@ -22,19 +13,11 @@
         },
         {"tag": "name",
          "patterns": ["what is your name", "what should I call you", "whats your name?"],
-         "responses": ["Still searching for a name...", "I don't know..."]
-        },
-        {"tag": "game",
-         "patterns": ["want to play a game", "do you want to play"],
-         "responses": ["Alright! Which one?", "Sure! What game?", "I can do that. What do you have in mind?"]
-        },
-        {"tag": "game_choice",
-          "patterns": ["chess", "checkers", "minecraft", "minesweeper", "surviv.io", "terraria", "angry birds"],
-          "responses": ["I'm not that good at that game", "I think you should ask someone better than me.", "I'm not the right kind of person for that"]
+         "responses": ["Bob", "You can call me Bob!", "My name is Bob."]
         },
         {"tag": "hobby",
-         "patterns": ["what do you like to do", "what is your hobby"],
-         "responses": ["I like to sleep.", "I enjoy sleeping"]
+         "patterns": ["what do you like to do", "what is your hobby", "what do you do on your free time"],
+         "responses": ["I like to sleep.", "I enjoy sleeping", "My favorite hobby is sleeping"]
         }
    ]
 }
